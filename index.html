@@ -11,24 +11,51 @@
     <link rel="stylesheet" href="styleportoboot.css" type="text/css">
 </head>
 <body>
-<ul>
-  	<li><a>Wildan Zaim Syaddad</a></li>
-	<li><a href="#home">Home</a></li>
- 	<li><a href="#portofolio">Portofolio</a></li>
-</ul>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+	
+	<!-- Brand -->
+	<a class="navbar-brand" href="#">Logo</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+  
+	<!-- Links -->
+	<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav justify-content-end">
+		<li class="nav-item">
+			<a class="nav-link" href="#">Home</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Profile</a>
+		</li>
+	
+		<!-- Dropdown -->
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+			Contact
+			</a>
+			<div class="dropdown-menu">
+			<a class="dropdown-item" href="#">Contact</a>
+			<a class="dropdown-item" href="#">Sosial media</a>
+			<a class="dropdown-item" href="#">Nomor telepon</a>
+			</div>
+		</li>
+		</ul>
+	</div>
+  </nav>
 <br>
 <hr>
 
 <div class="image1">
 	<div class="box1">
-		<img src="tsubasa.jpg" alt="Bukan gue:v" style="top:100px;padding-top:30px;">
+		<img src="tsubasa.jpg" class="rounded-circle" alt="Bukan gue:v" style="top:100px;padding-top:30px;">
 	</div>
 </div>
 <br>
 <div class="container2">
-	<div class="box2">
-		<h2 class="Nama">Wildan Zaim Syaddad</h2>
-		<h3 class="sekolah">Sekolah Teknik Elektro dan Informatika</h3>
+	<div class="row">
+		<div class="col-sm-12" style="text-align: center;font-size: 30px;font-family: verdana;">Wildan Zaim Syaddad</div>
+		<div class="col-sm-12" style="text-align: center;font-size: 20px;font-family: verdana; line-height: 5px;">Sekolah Teknik Elektro dan Informatika</div>
 	</div>
 </div>
 <br>
@@ -54,15 +81,14 @@
 		<div class="clearfix" style="width:100%;background-color:#0080ff;color:white;font-family:verdana;padding:20px;">
 			<h1 class="PersonalData">Personal Data</h1>
 			<hr>
-			<div class="kiri">
-				<p>Alamat</p>
-				<p>Tempat dan Tanggal Lahir</p>
-				<p>Status Perkawinan</p>
-			</div>
-			<div class="kanan">
-				<p>Jl Tubagus Ismail Raya gang Aquarius no 27</p>
-				<p>Klaten, 14 Oktober 1999</p>
-				<p>Lajang</p>
+			<div class="row">
+				<div class="col-sm-3" >Alamat</div>
+				<div class="col-sm-2"></div>
+				<div class="col-sm-7" >Jl Tubagus Ismail gang Aquarius no 27</div>
+				<div class="col-sm-5" >Tempat dan Tanggal Lahir</div>
+				<div class="col-sm-7" >Klaten, 14 Oktober 1999</div>
+				<div class="col-sm-5" >Status Perkawinan</div>
+				<div class="col-sm-7" >Lajang</div>
 			</div>
 		</div>
 	</div>
@@ -71,19 +97,78 @@
 		<div class="clearfix2" style="width:100%;background-color:#173F5F;color:white;font-family:verdana;padding:20px;">
 			<h1 class="PendidikanFormal">Pendidikan Formal</h1>
 			<hr>
-			<div class="kiri2">
-				<p>2006 - 2012</p>
-				<p>2012 - 2015</p>
-				<p>2015 - 2018</p>
-				<p>2019 - now</p>
-			</div>
-			<div class="kanan2">
-				<p>SDN 4 Bareng Lor</p>
-				<p>SMPN 2 Klaten</p>
-				<p>SMAN 1 Klaten</p>
-				<p>Institut Teknologi Bandung</p>
-			</div>
+			<div class="row">
+					<div class="col-sm-3" >2006-2012</div>
+					<div class="col-sm-2"></div>
+					<div class="col-sm-5">SDN 4 Bareng Lor</div>
+					<div class="col-sm-5" >2012-2015</div>
+					<div class="col-sm-7" >SMPN 2 Klaten</div>
+					<div class="col-sm-5" >2015-2018</div>
+					<div class="col-sm-7" >SMAN 1 Klaten</div>
+					<div class="col-sm-5" >2018-now</div>
+					<div class="col-sm-7" >Institut Teknologi Bandung</div>
+				</div>
 		</div>
 	</div>
+<div class="box3" style="background-color: #000066">
+	<h2 style="text-align: center;color:white">Kepribadian</h2>
+	<hr>
+	<div class="container">
+		<div class="alert alert-info alert-dismissible fade show">
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
+			<strong>Info!  </strong> data berdasarkan MBTI
+		</div>
+	</div>
+	<div class="container">
+		<h4 style="color: white;">Extraverted</h4>
+		<div class="progress">
+			<div class="progress-bar progress-bar-striped progress-bar-animated" style="width:72%">72%</div>
+		</div>
+		<br>
+		<h4 style="color:white;">Observant</h4>
+		<div class="progress">
+			<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:55%">55%</div>
+		</div>
+		<br>
+		<h4 style="color:white;">Feeling</h4>
+		<div class="progress">
+			<div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width:72%">72%</div>
+		</div>
+		<br>
+		<h4 style="color:white;">Judging</h4>
+		<div class="progress">
+			<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:56%">56%</div>
+		</div>
+		<br>
+		<h4 style="color:white;">Absertive</h4>
+		<div class="progress">
+			<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:63%">63%</div>
+		</div>
+	</div>
+<br>
+<hr>
+<center>
+		<div class="spinner-border text-warning"></div>
+</center>
+<hr>
+<div class="form-group">
+		<h2 style="color:white;">Tinggalkan komentar</h2>
+		<label for="usr" style="color:white;">Name:</label>
+		<input type="text" class="form-control" id="usr">
+	  </div>
+	  <div class="form-group">
+		<label for="pwd" style="color:white;">Password:</label>
+		<input type="password" class="form-control" id="pwd">
+	  </div>
+	  <label for="comment" style="color:white;">Komentar:</label>
+		<textarea class="form-control" rows="5" id="comment"></textarea>
+		<hr>
+		<hr>
+		<hr>
+
+</div>
+
+
+</div>
 </body>
 </html>
